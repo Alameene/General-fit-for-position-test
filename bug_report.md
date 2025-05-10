@@ -26,7 +26,7 @@ Additionally, `debug.exe` appears broken or non-functional without required code
 ---
 
 ## 📸 Screenshot:
-(Attach screenshots of folder & the faulty code if required)
+(...._uploaded_)
 
 ---
 
