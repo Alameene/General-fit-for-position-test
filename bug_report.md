@@ -23,6 +23,8 @@ This breaks the `installation_path_code.js` and may contribute to startup failur
 
 Additionally, `debug.exe` appears broken or non-functional without required code dependencies.
 
+Beyond the issue in `installation_path_code.js`, the project includes **multiple source code files with incorrect syntax or placeholder templating
+
 ---
 
 ## 📸 Screenshot:
@@ -37,6 +39,20 @@ Additionally, `debug.exe` appears broken or non-functional without required code
   ```
 - Add file/folder existence checks before attempting execution.
 - Ensure `debug.exe` handles missing components gracefully (or provide logs).
+
+- Run all scripts through a build process that compiles templates into working JavaScript (e.g., Webpack, EJS render).
+
+-Add a pre-packaging validation step to check:
+
+-All files are executable.
+
+-No placeholders (<%= %>, {{ }}, etc.) remain.
+
+-Each script has valid syntax and structure.
+
+-Test the final built game folder in a clean environment before release.
+
+-Implement basic logging (e.g., to error.log) when startup fails — this makes bugs far easier to trace.
 
 ---
 
