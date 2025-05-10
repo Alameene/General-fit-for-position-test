@@ -28,7 +28,7 @@ Beyond the issue in `installation_path_code.js`, the project includes **multiple
 ---
 
 ## 📸 Screenshot:
-(...._uploaded_)
+(...._uploaded_ as _SS-error.png_)
 
 ---
 
